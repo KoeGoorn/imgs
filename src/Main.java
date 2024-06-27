@@ -12,9 +12,9 @@ public class Main {
     public static void main(String[] args) throws IOException {
         List<Integer> bitListImage = readImageToBitList("imgk.bmp");
 
-        for (int i = 0; i < 7; i++) {
-            generateNoiseTxt(bitListImage.size(), noiseAmplitude, "noise" + i + ".txt");
-        }
+//        for (int i = 0; i < 7; i++) {
+//            generateNoiseTxt(bitListImage.size(), noiseAmplitude, "noises\\noise" + i + ".txt");
+//        }
 
         List<Integer>[] noises = new List[7];
         for (int i = 0; i < number; i++) {
